@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0.1%;
+}
+
+
+.myNav {
+  position: sticky;
+  top: 0;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+
+form {
+  transition: width 1s, height 1s, margin 1s;
+}
+
+form:hover {
+  margin: 1%;
+}
+
+.body {
+  display: flex;
+}
+
+.logo {
+  border-radius: 100%;
+  width: 5%;
+  height: auto;
+  transition: width 1s, height 1s;
+}
+
+.logo:hover {
+  width: 6%;
+}
+
+.sidebar {
+  background-image: url(https://www.macmillandictionary.com/external/slideshow/full/White_full.png);
+  width: 20%;
+  font-weight: 1000;
+  background-position: center center;
+  height: 60%;
+  float: left;
+  margin: 1%;
+  transition: width 1s, height 1s, margin 1s;
+}
+
+.sidebar:hover {
+  width: 22%;
+  margin: 0.5%;
+}
+
+.sidecontent {
+  width: 80%;
+  padding: 1rem;
+  margin: 1rem;
+  transition: width 1s, height 1s, margin 1s, font 1s;
+}
+
+.sidecontent:hover {
+  width: 82%;
+  margin: 0.5%;
+  font-size: larger;
+}
+
+.sidetext {
+  transition: font 1s;
+  font-size: 10px;
+}
+.sidetext:hover {
+  font-size: larger;
+}
+.border {
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.bgimg {
+  background-image: url(https://pict.edu/images/slider/home1/1.jpg);
+}
+
+.foot {
+  border-radius: 20px;
+  margin-top: 1%;
+}
+
+li {
+  color: white;
+  transition: width 1s, height 1s, margin 1s;
+}
+
+li:hover {
+  margin: 4%;
+}
+
+a {
+  transition: width 10s, height 10s;
+}
+a:hover {
+  width: 100%;
+}
